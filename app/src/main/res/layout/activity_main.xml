@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+                android:text="1"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/firstStu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+                android:text="Aditya Shigwan"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/attend1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/store1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Submit" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/secondStu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Ashwin A"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/attend2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/store2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Submit" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/thirdStu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Muhammad Jasim"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/attend3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/store3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Submit" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="4"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/forthStu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Noufiya Nazarin"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/attend4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/store4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Submit" />
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display data"
+        android:id="@+id/display_btn"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
